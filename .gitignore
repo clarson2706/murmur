@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# Transcription outputs and local media (never commit recordings)
+*.mp3
+*.qta
+*.m4a
+*.wav
+*.mp4
+*.mov
+*.flac
+*.ogg
+*.opus
+*.webm
+transcripts/
+out/
+
+# Secrets and OS junk
+.env*
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+*.log
